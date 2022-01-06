@@ -13,7 +13,7 @@
 
 import type { NextFunction, Response, Request } from "express"
 
-interface JsonOptions {
+export interface JsonOptions {
     /**
      * Controls the maximum request body size. If this is a number,
      * then the value specifies the number of bytes; if it is a string,
@@ -22,6 +22,6 @@ interface JsonOptions {
     limit?: number | string
 }
 
-export function json(options?: JsonOptions): (req: Request, res: Response, next: NextFunction) => void
+export declare function json(options?: JsonOptions): (req: Request, res: Response, next: NextFunction) => void
 
-export function urlencoded(): (req: Request, res: Response, next: NextFunction) => void
+export declare function urlencoded(): (req: Request, res: Response, next: NextFunction) => void
