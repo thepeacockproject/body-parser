@@ -1,7 +1,7 @@
 {
   "name": "@peacockproject/body-parser",
   "description": "Node.js body parsing middleware [Peacock fork]",
-  "version": "2.0.0-peacock.3",
+  "version": "2.0.0-peacock.4",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
@@ -17,7 +17,6 @@
     "http-errors": "^2.0.0",
     "iconv-lite": "^0.6.3",
     "on-finished": "^2.4.1",
-    "raw-body": "^2.5.1",
     "unpipe": "^1.0.0"
   },
   "devDependencies": {
