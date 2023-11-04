@@ -5,10 +5,10 @@ Changes made:
 - Clean out the package to only it's base
 - Add TypeScript type definitions
 - Update iconv-lite to 0.6
-- Remove extra dependencies on `depd`, `debug`, `raw-body` (see `lib/raw-body.js`), `qs`
+- Remove extra dependencies on `depd`, `debug`, `raw-body` (see `lib/rawBody.js`), `qs`
 - Add prototype pollution protection to JSON body-parser middleware
-- Switch dev setup to use Yarn 3, remove tests
-- Require Node 12 or newer
+- Switch dev setup to use Yarn 4, remove tests
+- Require Node 16 or newer
 - Add TypeScript and types packages to dev dependencies for extra IDE completion and other features
 
 ## Why does this exist?

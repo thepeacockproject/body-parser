@@ -9,4 +9,4 @@
 const json = require("./lib/json")
 const urlencoded = require("./lib/urlencoded")
 
-module.exports = { json, urlencoded }
+module.exports = {json, urlencoded}
